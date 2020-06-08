@@ -1,0 +1,23 @@
+@import '~antd/dist/antd.css';
+.dog-images-container { 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: 2.5rem auto;
+  max-width: 1600px;
+}
+
+.dog-images {
+  width: 32%;
+}
+
+@media only screen and (max-width: 768px) {
+  .dog-images-container{ 
+    flex-direction: column;
+  }
+  .dog-images {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+}
